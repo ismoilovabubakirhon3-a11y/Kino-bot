@@ -1,9 +1,8 @@
 import os
 import json
 import logging
-from telegram import Update InlineKeyboardButton, InlineKeyboardMarkup
-from telegram import Update InlineKeyboardButton, InlineKeyboardMarkup
- ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
+from telegram import Update InlineKeyboardButton InlineKeyboardMarkup
+from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
 # Logging sozlamalari
 logging.basicConfig(
